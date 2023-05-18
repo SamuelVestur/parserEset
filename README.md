@@ -38,11 +38,11 @@ Postupoval som tak, že ak súbor obsahoval riadok s "threat="is OK"", považova
 </div>
 
 <div align="center">
-<h2> 👨‍💻Výstup na konzolu  </h2>
+<h2> 🔎Výstup na konzolu  </h2>
 <img src="./vystup1.png" alt="vstup">
 </div>
 
 <div align="center">
-<h2> 👨‍💻Pokračovanie výstupu </h2>
+<h2> 🔎Pokračovanie výstupu </h2>
 <img src="./vystup2.png" alt="vstup">
 </div>
