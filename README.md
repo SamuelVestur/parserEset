@@ -31,3 +31,18 @@ Postupoval som tak, že ak súbor obsahoval riadok s "threat="is OK"", považova
 </p>
 
 <h1 align="center"> Ukážka fungovania kódu: </h1>
+
+<div align="center">
+<h2> 👨‍💻Vstup na konzolu </h2>
+<img src="./vstup.png" alt="vstup">
+</div>
+
+<div align="center">
+<h2> 👨‍💻Výstup na konzolu  </h2>
+<img src="./vystup1.png" alt="vstup">
+</div>
+
+<div align="center">
+<h2> 👨‍💻Pokračovanie výstupu </h2>
+<img src="./vystup2.png" alt="vstup">
+</div>
