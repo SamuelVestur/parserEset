@@ -24,7 +24,7 @@ Pri prístupe k zadaniu som najskôr preskúmal výstupy zo súboru "ESET_Parser
 Postupoval som tak, že ak súbor obsahoval riadok s "threat="is OK"", považoval som ho za neinfikovaný. Ak však obsahoval napríklad "threat="a variant of Win32/TrojanDownloader.Delf.PWL trojan"", považoval som ho za infikovaný a vypísal som ho na konzolu.
 </p>
 <p>
-  🥉 Na začiatku program požiada používateľa, aby zadal cestu k súboru, ktorý sa má parsovať. Ak používateľ zadá neplatnú cestu, program nebude schopný správne fungovať. Po zadání správnej cesty k parsovanému súboru program extrahuje záznamy, ktoré sú označené ako infikované, a zobrazí ich v navrhnutom formáte. Tento formát pozostáva z niekoľkých častí. Prvá časť je "File path:", 
+  🥉 Na začiatku program požiada používateľa, aby zadal cestu k súboru, ktorý sa má parsovať. Ak používateľ zadá neplatnú cestu, program nebude schopný správne fungovať. Po zadaní správnej cesty k parsovanému súboru program extrahuje záznamy, ktoré sú označené ako infikované, a zobrazí ich v navrhnutom formáte. Tento formát pozostáva z niekoľkých častí. Prvá časť je "File path:", 
   ktorá obsahuje cestu k infikovanému súboru. Nasleduje "Threat:", kde je uvedená hrozba alebo vírus obsiahnutý v danom súbore. Ak je súbor archivovaný, program vypíše informáciu o archíve 
   (napríklad: Archive: NSIS). Ak súbor obsahuje aj "packer" (čo som si vysvetlil ako súbor za archívom), program ho taktiež zobrazí. Ak archív alebo packer sa nenachádzajú v danom súbore program ich nevypíše na konzolu. 
  Na záver programu sa zobrazia počty súborov v celom súbore, počet infikovaných súborov a počet neinfikovaných súborov.
